@@ -1,6 +1,7 @@
-### ### ### angular.gitignore ### ### ###
+
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+### ### ### angular.gitignore ### ### ###
 # compiled output
 /angular/unbound/dist
 /angular/unbound/tmp
@@ -49,6 +50,8 @@ angular/unbound/Thumbs.db
 
 
 ### ### ### spring.gitignore ### ### ###
+spring/unbound/bin/
+
 ### Eclipse ###
 spring/**/.metadata
 
