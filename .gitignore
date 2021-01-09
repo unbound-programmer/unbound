@@ -12,76 +12,76 @@
 /angular/unbound/node_modules
 
 # profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
+angular/unbound/chrome-profiler-events*.json
+angular/unbound/speed-measure-plugin*.json
 
 # IDEs and editors
-/angular/unbound/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/angular/unbound/**/.idea
+angular/unbound/**/.project
+angular/unbound/**/.classpath
+angular/unbound/**/.c9/
+angular/unbound/*.launch
+angular/unbound/**/.settings/
+angular/unbound/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+angular/unbound/**/.vscode/*
+!angular/unbound/**/.vscode/settings.json
+!angular/unbound/**/.vscode/tasks.json
+!angular/unbound/**/.vscode/launch.json
+!angular/unbound/**/.vscode/extensions.json
+angular/unbound/**/.history/*
 
 # misc
-/angular/unbound/.sass-cache
+/angular/unbound/**/.sass-cache
 /angular/unbound/connect.lock
 /angular/unbound/coverage
 /angular/unbound/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
+angular/unbound/npm-debug.log
+angular/unbound/yarn-error.log
+angular/unbound/testem.log
 /angular/unbound/typings
 
 # System Files
-.DS_Store
-Thumbs.db
+angular/unbound/**/.DS_Store
+angular/unbound/Thumbs.db
 
 
 
 ### ### ### spring.gitignore ### ### ###
 ### Eclipse ###
-.metadata
+spring/.metadata
 
 HELP.md
 spring/unbound/target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!spring/unbound/**/.mvn/wrapper/maven-wrapper.jar
+!spring/unbound/**/src/main/**/target/
+!spring/unbound/**/src/test/**/target/
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+spring/unbound/**/.apt_generated
+spring/unbound/**/.classpath
+spring/unbound/**/.factorypath
+spring/unbound/**/.project
+spring/unbound/**/.settings
+spring/unbound/**/.springBeans
+spring/unbound/**/.sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+spring/unbound/**/.idea
+spring/unbound/*.iws
+spring/unbound/*.iml
+spring/unbound/*.ipr
 
 ### NetBeans ###
 /spring/unbound/nbproject/private/
 /spring/unbound/nbbuild/
 /spring/unbound/dist/
 /spring/unbound/nbdist/
-/spring/unbound/.nb-gradle/
+/spring/unbound/**/.nb-gradle/
 spring/unbound/build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+!spring/unbound/**/src/main/**/build/
+!spring/unbound/**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+spring/unbound/**/.vscode/
