@@ -50,7 +50,7 @@ angular/unbound/Thumbs.db
 
 ### ### ### spring.gitignore ### ### ###
 ### Eclipse ###
-spring/.metadata
+spring/**/.metadata
 
 HELP.md
 spring/unbound/target/
