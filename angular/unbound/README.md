@@ -15,9 +15,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 3. To deploy Apache Tomcat>>
 	i) add the tag`<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />` into the Host tag (`<Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host>`) in conf/server.xml file.
 	ii) Create rewrite.config with these lines below:
-		        RewriteCond %{REQUEST_PATH} !-f
-		        # RewriteRule ^/unbound/(.*) unbound/index.html
-		        RewriteRule ^/unbound/hello unbound/index.html
+	<pre>
+		RewriteCond %{REQUEST_PATH} !-f
+		# RewriteRule ^/unbound/(.*) unbound/index.html
+		RewriteRule ^/unbound/hello unbound/index.html
+	</pre>
 
 ## Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -27,3 +29,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Markdown
+https://github.com/emn178/markdown/blob/master/README.md
