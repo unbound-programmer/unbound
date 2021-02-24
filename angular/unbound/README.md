@@ -12,8 +12,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 1. `ng build --prod --base-href=/unbound/`
 2. dist/unbound>> CLI>> `jar -cvf unbound.war *`
-3. To deploy Apache Tomcat>>
-	i) add the tag`<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />` into the Host tag (`<Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host>`) in conf/server.xml file.
+3. To deploy Apache Tomcat>>  
+	i) add the tag`<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />` into the Host tag (`<Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host>`) in conf/server.xml file.  
 	ii) Create rewrite.config with these lines below:
 	<pre>
 		RewriteCond %{REQUEST_PATH} !-f
