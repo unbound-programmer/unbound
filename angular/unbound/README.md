@@ -10,14 +10,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-1. ng build --prod --base-href=/unbound/
-2. dist/unbound>> CLI>> jar -cvf unbound.war *
+1. `ng build --prod --base-href=/unbound/`
+2. dist/unbound>> CLI>> `jar -cvf unbound.war *`
 3. To deploy Apache Tomcat>>
-	i) add the tag		<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" /> into the Host tag (<pre><Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host></pre>) in conf/server.xml file.
+	i) add the tag`<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />` into the Host tag (`<Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host>`) in conf/server.xml file.
 	ii) Create rewrite.config with these lines below:
-		RewriteCond %{REQUEST_PATH} !-f
-		# RewriteRule ^/unbound/(.*) unbound/index.html
-		RewriteRule ^/unbound/hello unbound/index.html
+		        RewriteCond %{REQUEST_PATH} !-f
+		        # RewriteRule ^/unbound/(.*) unbound/index.html
+		        RewriteRule ^/unbound/hello unbound/index.html
 
 ## Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
