@@ -16,9 +16,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 	i) add the tag`<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />` into the Host tag (`<Host name="localhost"  appBase="webapps"  unpackWARs="true" autoDeploy="true"> </Host>`) in conf/server.xml file.  
 	ii) Create rewrite.config with these lines below:
 	<pre>
-		RewriteCond %{REQUEST_PATH} !-f
-		# RewriteRule ^/unbound/(.*) unbound/index.html
-		RewriteRule ^/unbound/hello unbound/index.html
+	RewriteCond %{REQUEST_PATH} !-f
+	# RewriteRule ^/unbound/(.*) unbound/index.html
+	RewriteRule ^/unbound/hello unbound/index.html
 	</pre>
 
 ## Running unit tests
